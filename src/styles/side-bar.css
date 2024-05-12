@@ -1,0 +1,161 @@
+#side-bar{
+    padding: 20px;
+    background-color: #E8E8E8;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+#project-header{
+    margin: 15px 0 15px 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.side-bar-button{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    background-color: #E8E8E8;
+}
+
+.side-bar-button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgb(0 0 0/15%) 0 0)
+}
+
+#project-add-button-plus{
+    margin-bottom: 2px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+#add-project-button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.side-bar-icons{
+    height: 0.9em;
+    margin-right: 12px;
+}
+
+/* .file-icon{
+    height: 1.1em;
+    margin-top: 4px;
+} */
+
+#project-container{
+    width: 100%;
+}
+
+.project-button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    /* z-index: 0; */
+}
+
+/* .button-wrapper{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.unclickable-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    pointer-events: all;
+    z-index: 5;
+} */
+
+.project-button-wrapper{
+    position: relative;
+}
+
+.project-button-x{
+    /* margin-left: auto;
+    margin-top: 2px; */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    font-weight: bold;
+    font-size: 22px;
+    visibility: hidden;
+    outline: none;
+    background: none;
+    border: none;
+    /* pointer-events: all; */
+    z-index: 9;
+}
+
+.project-button-x:hover{
+    top: 6px;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+#add-project-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+#name-input{
+    width: 100%;
+    height: 40px;
+    padding: 0 0 0 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#name-input:focus{
+    outline: none;
+}
+
+#add-project-buttons-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.add-project-buttons{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.add-project-buttons:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgb(0 0 0/15%) 0 0)
+}
+
+#project-add-button{
+    background-color: #9AFF91;
+}
+
+#project-cancel-button{
+    background-color: #FF9191;
+}

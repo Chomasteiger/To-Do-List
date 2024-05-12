@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 25px;
+    background-color: #828b89;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#checkedImg{
+    width: 35px;
+    margin-top: 4px;
+}
+
+#content{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+}
